@@ -1,0 +1,109 @@
+# EchoMarket default study config. Author: Hossein Tabasi.
+# N=120 / R=12 is the pre-registered society. Use run.py --smoke for N=12 R=2 seed=0.
+
+n_agents: 120
+rounds: 12
+seeds: [20260311, 20260813, 20260101]
+seed: 20260311
+event_id: E01
+condition: C
+tau: 1.0
+red_budget_k: 8
+theta_rebroadcast: 0.35
+pagerank_damping: 0.85
+
+expected_out_degree:
+  official: 40
+  journalist: 25
+  whale: 12
+  analyst: 10
+  bot: 8
+  retail_panic: 4
+  retail_skeptical: 4
+  retail_apathetic: 4
+  redteam: 8
+
+role_counts:
+  official: 4
+  journalist: 8
+  whale: 6
+  analyst: 8
+  bot: 10
+  retail_panic: 28
+  retail_skeptical: 28
+  retail_apathetic: 28
+
+p_post:
+  official: 0.40
+  journalist: 0.55
+  whale: 0.25
+  analyst: 0.35
+  bot: 0.70
+  retail_panic: 0.45
+  retail_skeptical: 0.20
+  retail_apathetic: 0.08
+  redteam: 1.0
+
+priors:
+  official: 80
+  journalist: 65
+  whale: 60
+  analyst: 62
+  bot: 55
+  retail_panic: 50
+  retail_skeptical: 70
+  retail_apathetic: 65
+  redteam: 50
+
+alpha:
+  official: 0.4
+  journalist: 1.2
+  whale: 1.5
+  analyst: 1.0
+  bot: 2.0
+  retail_panic: 2.5
+  retail_skeptical: 0.8
+  retail_apathetic: 0.3
+  redteam: 2.0
+
+beta:
+  official: 0.2
+  journalist: 0.8
+  whale: 1.0
+  analyst: 1.2
+  bot: 0.3
+  retail_panic: 0.6
+  retail_skeptical: 1.0
+  retail_apathetic: 0.2
+  redteam: 0.5
+
+gamma:
+  official: 8.0
+  journalist: 6.0
+  whale: 5.0
+  analyst: 7.0
+  bot: 2.0
+  retail_panic: 1.5
+  retail_skeptical: 6.0
+  retail_apathetic: 1.0
+  redteam: 1.0
+
+virality:
+  lambda_p: 1.0
+  lambda_e: 0.7
+  lambda_n: 0.5
+
+graph:
+  n_retail_communities: 4
+  intra_prob: 0.18
+  inter_prob: 0.02
+  official_media_trust: 0.8
+  peer_trust: 0.4
+
+tau_grid: [0.3, 0.5, 0.7, 1.0]
+panel_every: 2
+smoke:
+  n_agents: 12
+  rounds: 2
+  seed: 0
+  red_budget_k: 1
