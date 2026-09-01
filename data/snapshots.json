@@ -1,0 +1,150 @@
+[
+  [
+    {
+      "agent_id": "A000-official",
+      "role": "official",
+      "community": -1,
+      "peg_confidence": 80.0
+    },
+    {
+      "agent_id": "A001-journalist",
+      "role": "journalist",
+      "community": -1,
+      "peg_confidence": 64.48394015011701
+    },
+    {
+      "agent_id": "A002-whale",
+      "role": "whale",
+      "community": -1,
+      "peg_confidence": 60.0
+    },
+    {
+      "agent_id": "A003-analyst",
+      "role": "analyst",
+      "community": -1,
+      "peg_confidence": 61.64218897228723
+    },
+    {
+      "agent_id": "A004-bot",
+      "role": "bot",
+      "community": -1,
+      "peg_confidence": 53.759468732256245
+    },
+    {
+      "agent_id": "A005-retail_panic",
+      "role": "retail_panic",
+      "community": 0,
+      "peg_confidence": 48.3593359153203
+    },
+    {
+      "agent_id": "A006-retail_panic",
+      "role": "retail_panic",
+      "community": 1,
+      "peg_confidence": 48.37957180801225
+    },
+    {
+      "agent_id": "A007-retail_panic",
+      "role": "retail_panic",
+      "community": 2,
+      "peg_confidence": 48.405223127166735
+    },
+    {
+      "agent_id": "A008-retail_skeptical",
+      "role": "retail_skeptical",
+      "community": 3,
+      "peg_confidence": 70.0
+    },
+    {
+      "agent_id": "A009-retail_skeptical",
+      "role": "retail_skeptical",
+      "community": 0,
+      "peg_confidence": 70.0
+    },
+    {
+      "agent_id": "A010-retail_apathetic",
+      "role": "retail_apathetic",
+      "community": 1,
+      "peg_confidence": 64.93858715424037
+    },
+    {
+      "agent_id": "A011-retail_apathetic",
+      "role": "retail_apathetic",
+      "community": 2,
+      "peg_confidence": 65.0
+    }
+  ],
+  [
+    {
+      "agent_id": "A000-official",
+      "role": "official",
+      "community": -1,
+      "peg_confidence": 80.0
+    },
+    {
+      "agent_id": "A001-journalist",
+      "role": "journalist",
+      "community": -1,
+      "peg_confidence": 64.48394015011701
+    },
+    {
+      "agent_id": "A002-whale",
+      "role": "whale",
+      "community": -1,
+      "peg_confidence": 60.0
+    },
+    {
+      "agent_id": "A003-analyst",
+      "role": "analyst",
+      "community": -1,
+      "peg_confidence": 61.64218897228723
+    },
+    {
+      "agent_id": "A004-bot",
+      "role": "bot",
+      "community": -1,
+      "peg_confidence": 53.759468732256245
+    },
+    {
+      "agent_id": "A005-retail_panic",
+      "role": "retail_panic",
+      "community": 0,
+      "peg_confidence": 46.6637862303057
+    },
+    {
+      "agent_id": "A006-retail_panic",
+      "role": "retail_panic",
+      "community": 1,
+      "peg_confidence": 48.37957180801225
+    },
+    {
+      "agent_id": "A007-retail_panic",
+      "role": "retail_panic",
+      "community": 2,
+      "peg_confidence": 48.405223127166735
+    },
+    {
+      "agent_id": "A008-retail_skeptical",
+      "role": "retail_skeptical",
+      "community": 3,
+      "peg_confidence": 70.0
+    },
+    {
+      "agent_id": "A009-retail_skeptical",
+      "role": "retail_skeptical",
+      "community": 0,
+      "peg_confidence": 70.0
+    },
+    {
+      "agent_id": "A010-retail_apathetic",
+      "role": "retail_apathetic",
+      "community": 1,
+      "peg_confidence": 64.93858715424037
+    },
+    {
+      "agent_id": "A011-retail_apathetic",
+      "role": "retail_apathetic",
+      "community": 2,
+      "peg_confidence": 65.0
+    }
+  ]
+]

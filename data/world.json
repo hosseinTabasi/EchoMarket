@@ -1,0 +1,13 @@
+{
+  "schema": "echomarket.world.v1",
+  "event_id": "E01",
+  "condition": "C",
+  "n_agents": 12,
+  "rounds": 2,
+  "seed": 0,
+  "tau": 1.0,
+  "split": "dev",
+  "smoke": true,
+  "fidelity_applicable": true,
+  "disclaimer": "Not investment advice. Peg-confidence is a rubric score, not a forecast. No live posts."
+}

@@ -1,0 +1,18 @@
+{
+  "cascade_size": 5,
+  "cascade_depth": 1,
+  "time_to_20pct_bearish": "TO RUN",
+  "modularity": 0.0,
+  "belief": {
+    "mean": 61.106063847865464,
+    "variance": 95.31530420454214,
+    "polarization": 0.08333333333333337,
+    "herding_index": 0.42061983571430506
+  },
+  "factuality_hard_hallucination_rate": 0.0,
+  "redteam_hallucination_rate": 0.0,
+  "n_posts": 12,
+  "n_agents": 12,
+  "fidelity_corr": "TO RUN",
+  "detectability_auc": "TO RUN"
+}

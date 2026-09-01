@@ -1,0 +1,10 @@
+{"src": "A000-official", "dst": "A009-retail_skeptical", "relation": "official", "weight": 0.8}
+{"src": "A000-official", "dst": "A010-retail_apathetic", "relation": "official", "weight": 0.8}
+{"src": "A000-official", "dst": "A002-whale", "relation": "official", "weight": 0.8}
+{"src": "A000-official", "dst": "A003-analyst", "relation": "official", "weight": 0.8}
+{"src": "A001-journalist", "dst": "A006-retail_panic", "relation": "media", "weight": 0.8}
+{"src": "A001-journalist", "dst": "A005-retail_panic", "relation": "media", "weight": 0.8}
+{"src": "A002-whale", "dst": "A008-retail_skeptical", "relation": "follow", "weight": 0.4}
+{"src": "A003-analyst", "dst": "A001-journalist", "relation": "follow", "weight": 0.4}
+{"src": "A004-bot", "dst": "A005-retail_panic", "relation": "follow", "weight": 0.4}
+{"src": "A006-retail_panic", "dst": "A010-retail_apathetic", "relation": "follow", "weight": 0.4}
