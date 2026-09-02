@@ -1,0 +1,11 @@
+{
+  "method": "tfidf-logistic",
+  "n_real_dev": 32,
+  "n_synth_dev": 10998,
+  "n_real_test": 8,
+  "n_synth_test": 2726,
+  "dev_cv_auc": 0.6953333333333334,
+  "test_auc": 0.9284666177549523,
+  "dev_note": "n_real=32 n_synth_used=8000 cv_splits=5",
+  "test_note": "n_real=8 n_synth_used=2726; model fit on DEV only"
+}

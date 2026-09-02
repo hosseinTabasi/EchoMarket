@@ -1,0 +1,4536 @@
+{
+  "author": "Hossein Tabasi",
+  "n_agents": 120,
+  "rounds": 12,
+  "seeds": [
+    20260311,
+    20260813,
+    20260101
+  ],
+  "tau_grid": [
+    0.3,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "generator": "prompt-only-decoder",
+  "n_runs": 564,
+  "n_ok": 564,
+  "n_fail": 0,
+  "wall_elapsed_s": 4753.636579275131,
+  "sum_run_elapsed_s": 37884.7006957531,
+  "runs": [
+    {
+      "key": "E01_C_seed20260311_tau1",
+      "elapsed_s": 48.221781730651855,
+      "ok": true,
+      "skipped": true,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E02_B_seed20260311_tau1",
+      "elapsed_s": 56.141212463378906,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_B_seed20260311_tau1.json"
+    },
+    {
+      "key": "E03_B_seed20260311_tau1",
+      "elapsed_s": 57.026026487350464,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_B_seed20260311_tau1.json"
+    },
+    {
+      "key": "E02_B_seed20260101_tau1",
+      "elapsed_s": 58.320173501968384,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_B_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_B_seed20260101_tau1",
+      "elapsed_s": 68.38527917861938,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_B_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_B_seed20260813_tau1",
+      "elapsed_s": 70.86868143081665,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_B_seed20260813_tau1.json"
+    },
+    {
+      "key": "E02_B_seed20260813_tau1",
+      "elapsed_s": 72.39746284484863,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_B_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_B_seed20260311_tau1",
+      "elapsed_s": 80.22830724716187,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_B_seed20260311_tau1.json"
+    },
+    {
+      "key": "E01_B_seed20260813_tau1",
+      "elapsed_s": 86.39214944839478,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_B_seed20260813_tau1.json"
+    },
+    {
+      "key": "E04_B_seed20260311_tau1",
+      "elapsed_s": 44.75923156738281,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_B_seed20260311_tau1.json"
+    },
+    {
+      "key": "E03_B_seed20260101_tau1",
+      "elapsed_s": 45.96762228012085,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_B_seed20260101_tau1.json"
+    },
+    {
+      "key": "E04_B_seed20260813_tau1",
+      "elapsed_s": 44.928431272506714,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_B_seed20260813_tau1.json"
+    },
+    {
+      "key": "E04_B_seed20260101_tau1",
+      "elapsed_s": 44.32697153091431,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_B_seed20260101_tau1.json"
+    },
+    {
+      "key": "E06_B_seed20260311_tau1",
+      "elapsed_s": 42.29175090789795,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_B_seed20260311_tau1.json"
+    },
+    {
+      "key": "E05_B_seed20260101_tau1",
+      "elapsed_s": 58.619481801986694,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_B_seed20260101_tau1.json"
+    },
+    {
+      "key": "E07_B_seed20260311_tau1",
+      "elapsed_s": 35.82810187339783,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_B_seed20260311_tau1.json"
+    },
+    {
+      "key": "E05_B_seed20260311_tau1",
+      "elapsed_s": 71.20821142196655,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_B_seed20260311_tau1.json"
+    },
+    {
+      "key": "E06_B_seed20260101_tau1",
+      "elapsed_s": 42.09370231628418,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_B_seed20260101_tau1.json"
+    },
+    {
+      "key": "E06_B_seed20260813_tau1",
+      "elapsed_s": 42.45333456993103,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_B_seed20260813_tau1.json"
+    },
+    {
+      "key": "E05_B_seed20260813_tau1",
+      "elapsed_s": 74.26039719581604,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_B_seed20260813_tau1.json"
+    },
+    {
+      "key": "E07_B_seed20260813_tau1",
+      "elapsed_s": 38.461857318878174,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_B_seed20260813_tau1.json"
+    },
+    {
+      "key": "E07_B_seed20260101_tau1",
+      "elapsed_s": 40.365269899368286,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_B_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_C_seed20260101_tau1",
+      "elapsed_s": 47.25465679168701,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_C_seed20260813_tau1",
+      "elapsed_s": 62.96418786048889,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E08_B_seed20260813_tau1",
+      "elapsed_s": 68.5369005203247,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_B_seed20260813_tau1.json"
+    },
+    {
+      "key": "E08_B_seed20260311_tau1",
+      "elapsed_s": 69.3482894897461,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_B_seed20260311_tau1.json"
+    },
+    {
+      "key": "E08_B_seed20260101_tau1",
+      "elapsed_s": 68.67833495140076,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_B_seed20260101_tau1.json"
+    },
+    {
+      "key": "E02_C_seed20260311_tau1",
+      "elapsed_s": 70.42451882362366,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E02_C_seed20260813_tau1",
+      "elapsed_s": 81.13047456741333,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E02_C_seed20260101_tau1",
+      "elapsed_s": 79.43361186981201,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_C_seed20260311_tau1",
+      "elapsed_s": 67.38458347320557,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E04_C_seed20260311_tau1",
+      "elapsed_s": 62.73021602630615,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E04_C_seed20260101_tau1",
+      "elapsed_s": 60.27048397064209,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E04_C_seed20260813_tau1",
+      "elapsed_s": 75.35847926139832,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E03_C_seed20260101_tau1",
+      "elapsed_s": 84.58127164840698,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_C_seed20260813_tau1",
+      "elapsed_s": 95.79414486885071,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E05_C_seed20260311_tau1",
+      "elapsed_s": 72.72430658340454,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E05_C_seed20260101_tau1",
+      "elapsed_s": 67.64143371582031,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E06_C_seed20260311_tau1",
+      "elapsed_s": 56.94068121910095,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E06_C_seed20260813_tau1",
+      "elapsed_s": 58.96580362319946,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E05_C_seed20260813_tau1",
+      "elapsed_s": 97.19401431083679,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E07_C_seed20260311_tau1",
+      "elapsed_s": 53.783127784729004,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E07_C_seed20260101_tau1",
+      "elapsed_s": 50.24289274215698,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E07_C_seed20260813_tau1",
+      "elapsed_s": 57.899136543273926,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E06_C_seed20260101_tau1",
+      "elapsed_s": 76.87544083595276,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E08_C_seed20260311_tau1",
+      "elapsed_s": 100.9717173576355,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E10_C_seed20260311_tau1",
+      "elapsed_s": 70.29403162002563,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E10_C_seed20260813_tau1",
+      "elapsed_s": 70.09196877479553,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_C_seed20260311_tau1",
+      "elapsed_s": 95.8214647769928,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_C_seed20260311_tau1.json"
+    },
+    {
+      "key": "E08_C_seed20260101_tau1",
+      "elapsed_s": 113.3283462524414,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E08_C_seed20260813_tau1",
+      "elapsed_s": 121.8858745098114,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_C_seed20260813_tau1",
+      "elapsed_s": 115.16468548774719,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_C_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_C_seed20260101_tau1",
+      "elapsed_s": 111.28466558456421,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 43.1541633605957,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E01_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 46.20424556732178,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 48.888542890548706,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E10_C_seed20260101_tau1",
+      "elapsed_s": 74.87824773788452,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_C_seed20260101_tau1.json"
+    },
+    {
+      "key": "E02_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 74.78513789176941,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E02_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 86.13540124893188,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E03_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 72.32335638999939,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E02_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 77.94453048706055,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 87.37231469154358,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E04_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 71.40446734428406,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E04_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 69.11271262168884,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E03_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 94.8501489162445,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E04_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 78.75428533554077,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E05_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 71.84240937232971,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E05_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 73.47839617729187,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E05_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 74.90440392494202,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E06_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 55.40410351753235,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E06_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 62.83840537071228,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E07_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 55.3979058265686,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E06_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 63.474775314331055,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E07_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 57.29550790786743,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E08_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 63.34502553939819,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E07_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 83.04871106147766,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E08_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 89.2118992805481,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 87.20221829414368,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 89.41266369819641,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E09_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 103.01956486701965,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E08_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 118.53750777244568,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E10_C-shuffled_seed20260311_tau1",
+      "elapsed_s": 78.69102501869202,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_C-shuffled_seed20260311_tau1.json"
+    },
+    {
+      "key": "E01_D_seed20260311_tau0.3",
+      "elapsed_s": 44.62942719459534,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E10_C-shuffled_seed20260813_tau1",
+      "elapsed_s": 80.44666767120361,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_C-shuffled_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_D_seed20260311_tau0.5",
+      "elapsed_s": 46.106741189956665,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E10_C-shuffled_seed20260101_tau1",
+      "elapsed_s": 73.5498399734497,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_C-shuffled_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_D_seed20260311_tau0.7",
+      "elapsed_s": 46.62997531890869,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E01_D_seed20260311_tau1",
+      "elapsed_s": 50.543856143951416,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E01_D_seed20260813_tau0.3",
+      "elapsed_s": 48.29909825325012,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E01_D_seed20260813_tau0.5",
+      "elapsed_s": 46.5351984500885,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E01_D_seed20260813_tau0.7",
+      "elapsed_s": 47.91443204879761,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E01_D_seed20260813_tau1",
+      "elapsed_s": 51.82733750343323,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_D_seed20260101_tau0.3",
+      "elapsed_s": 53.252033948898315,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E01_D_seed20260101_tau0.7",
+      "elapsed_s": 60.87010383605957,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E01_D_seed20260101_tau0.5",
+      "elapsed_s": 68.67495346069336,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E01_D_seed20260101_tau1",
+      "elapsed_s": 56.15896391868591,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E02_D_seed20260311_tau0.3",
+      "elapsed_s": 61.17631125450134,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E02_D_seed20260311_tau0.5",
+      "elapsed_s": 67.37008690834045,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E02_D_seed20260311_tau0.7",
+      "elapsed_s": 70.30355262756348,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E02_D_seed20260311_tau1",
+      "elapsed_s": 73.25794219970703,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E02_D_seed20260813_tau0.3",
+      "elapsed_s": 72.12962937355042,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E02_D_seed20260813_tau0.5",
+      "elapsed_s": 69.37365484237671,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E02_D_seed20260813_tau0.7",
+      "elapsed_s": 72.049959897995,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E02_D_seed20260813_tau1",
+      "elapsed_s": 71.47756505012512,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E02_D_seed20260101_tau0.3",
+      "elapsed_s": 83.32153296470642,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E02_D_seed20260101_tau0.5",
+      "elapsed_s": 90.14558720588684,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E02_D_seed20260101_tau0.7",
+      "elapsed_s": 84.81544137001038,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E03_D_seed20260311_tau0.3",
+      "elapsed_s": 79.6866557598114,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E02_D_seed20260101_tau1",
+      "elapsed_s": 83.44779801368713,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_D_seed20260311_tau0.5",
+      "elapsed_s": 72.65258932113647,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E03_D_seed20260311_tau1",
+      "elapsed_s": 70.50569891929626,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E03_D_seed20260311_tau0.7",
+      "elapsed_s": 73.87528872489929,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E03_D_seed20260813_tau0.3",
+      "elapsed_s": 93.76315474510193,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E03_D_seed20260813_tau0.5",
+      "elapsed_s": 91.82436084747314,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E03_D_seed20260813_tau0.7",
+      "elapsed_s": 94.93024587631226,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E03_D_seed20260813_tau1",
+      "elapsed_s": 93.03627800941467,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E03_D_seed20260101_tau0.5",
+      "elapsed_s": 96.11822557449341,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E03_D_seed20260101_tau0.7",
+      "elapsed_s": 99.17241048812866,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E03_D_seed20260101_tau1",
+      "elapsed_s": 97.70249366760254,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_D_seed20260101_tau0.3",
+      "elapsed_s": 107.3968734741211,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E04_D_seed20260311_tau0.3",
+      "elapsed_s": 64.55930781364441,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E04_D_seed20260311_tau0.5",
+      "elapsed_s": 73.93555164337158,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E04_D_seed20260311_tau0.7",
+      "elapsed_s": 74.03313899040222,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E04_D_seed20260813_tau0.3",
+      "elapsed_s": 65.5674819946289,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E04_D_seed20260813_tau0.5",
+      "elapsed_s": 63.27170991897583,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E04_D_seed20260813_tau0.7",
+      "elapsed_s": 64.30290675163269,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E04_D_seed20260311_tau1",
+      "elapsed_s": 81.1332323551178,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E04_D_seed20260813_tau1",
+      "elapsed_s": 67.8511528968811,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E04_D_seed20260101_tau0.3",
+      "elapsed_s": 72.64444661140442,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E04_D_seed20260101_tau0.5",
+      "elapsed_s": 70.15376853942871,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E04_D_seed20260101_tau0.7",
+      "elapsed_s": 82.30486631393433,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E04_D_seed20260101_tau1",
+      "elapsed_s": 71.94780564308167,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E05_D_seed20260311_tau0.7",
+      "elapsed_s": 72.92663788795471,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E05_D_seed20260311_tau0.5",
+      "elapsed_s": 76.62501907348633,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E05_D_seed20260311_tau1",
+      "elapsed_s": 75.56574869155884,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E05_D_seed20260311_tau0.3",
+      "elapsed_s": 88.82007384300232,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E05_D_seed20260813_tau0.3",
+      "elapsed_s": 80.67917370796204,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E05_D_seed20260813_tau0.5",
+      "elapsed_s": 74.08738994598389,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E05_D_seed20260813_tau0.7",
+      "elapsed_s": 72.78223609924316,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E05_D_seed20260813_tau1",
+      "elapsed_s": 74.2701051235199,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E05_D_seed20260101_tau0.3",
+      "elapsed_s": 78.19515442848206,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E06_D_seed20260311_tau0.3",
+      "elapsed_s": 63.27203559875488,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E05_D_seed20260101_tau0.5",
+      "elapsed_s": 85.06257629394531,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E05_D_seed20260101_tau0.7",
+      "elapsed_s": 87.18740344047546,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E05_D_seed20260101_tau1",
+      "elapsed_s": 83.43927335739136,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E06_D_seed20260311_tau0.5",
+      "elapsed_s": 64.00446581840515,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E06_D_seed20260311_tau0.7",
+      "elapsed_s": 64.92647218704224,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E06_D_seed20260311_tau1",
+      "elapsed_s": 64.49613285064697,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E06_D_seed20260813_tau0.3",
+      "elapsed_s": 63.04359006881714,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E06_D_seed20260813_tau0.5",
+      "elapsed_s": 68.6425142288208,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E06_D_seed20260813_tau0.7",
+      "elapsed_s": 66.6595106124878,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E06_D_seed20260101_tau0.3",
+      "elapsed_s": 62.093228578567505,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E06_D_seed20260813_tau1",
+      "elapsed_s": 70.47539067268372,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E06_D_seed20260101_tau0.5",
+      "elapsed_s": 65.76138997077942,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E06_D_seed20260101_tau0.7",
+      "elapsed_s": 69.13828992843628,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E06_D_seed20260101_tau1",
+      "elapsed_s": 69.59511876106262,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E07_D_seed20260311_tau0.3",
+      "elapsed_s": 60.81041860580444,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E07_D_seed20260311_tau0.5",
+      "elapsed_s": 54.45551609992981,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E07_D_seed20260311_tau0.7",
+      "elapsed_s": 55.168089389801025,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E07_D_seed20260311_tau1",
+      "elapsed_s": 57.020203828811646,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E07_D_seed20260813_tau0.3",
+      "elapsed_s": 54.907100677490234,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E07_D_seed20260813_tau0.5",
+      "elapsed_s": 61.63683009147644,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E07_D_seed20260813_tau0.7",
+      "elapsed_s": 74.29686093330383,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E07_D_seed20260101_tau0.5",
+      "elapsed_s": 65.20881700515747,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E07_D_seed20260101_tau0.7",
+      "elapsed_s": 64.26837968826294,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E07_D_seed20260813_tau1",
+      "elapsed_s": 75.136638879776,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E07_D_seed20260101_tau0.3",
+      "elapsed_s": 77.33986949920654,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E07_D_seed20260101_tau1",
+      "elapsed_s": 67.04173612594604,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E08_D_seed20260311_tau0.5",
+      "elapsed_s": 94.2952995300293,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E08_D_seed20260311_tau0.3",
+      "elapsed_s": 108.87209558486938,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E08_D_seed20260813_tau0.3",
+      "elapsed_s": 86.86987328529358,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E08_D_seed20260311_tau1",
+      "elapsed_s": 89.37330317497253,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E08_D_seed20260311_tau0.7",
+      "elapsed_s": 96.83808422088623,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E08_D_seed20260813_tau1",
+      "elapsed_s": 96.42959523200989,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E08_D_seed20260813_tau0.7",
+      "elapsed_s": 102.5464539527893,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E08_D_seed20260813_tau0.5",
+      "elapsed_s": 109.77156114578247,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E08_D_seed20260101_tau0.3",
+      "elapsed_s": 99.97469854354858,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E08_D_seed20260101_tau0.5",
+      "elapsed_s": 101.73560953140259,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E09_D_seed20260311_tau0.3",
+      "elapsed_s": 81.88310980796814,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E08_D_seed20260101_tau0.7",
+      "elapsed_s": 101.29889392852783,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E08_D_seed20260101_tau1",
+      "elapsed_s": 104.16169309616089,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E09_D_seed20260311_tau0.7",
+      "elapsed_s": 85.29233145713806,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E09_D_seed20260311_tau0.5",
+      "elapsed_s": 88.98356819152832,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E09_D_seed20260311_tau1",
+      "elapsed_s": 87.45161843299866,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E09_D_seed20260813_tau0.5",
+      "elapsed_s": 84.3595404624939,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E09_D_seed20260813_tau0.3",
+      "elapsed_s": 91.20718693733215,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E09_D_seed20260813_tau0.7",
+      "elapsed_s": 91.04367113113403,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E09_D_seed20260813_tau1",
+      "elapsed_s": 84.9288170337677,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_D_seed20260101_tau0.3",
+      "elapsed_s": 87.56862425804138,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E09_D_seed20260101_tau0.5",
+      "elapsed_s": 98.13528251647949,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E09_D_seed20260101_tau0.7",
+      "elapsed_s": 101.12248754501343,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E10_D_seed20260311_tau0.3",
+      "elapsed_s": 67.6926155090332,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E09_D_seed20260101_tau1",
+      "elapsed_s": 107.7780191898346,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E10_D_seed20260311_tau0.7",
+      "elapsed_s": 72.68641924858093,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E10_D_seed20260311_tau0.5",
+      "elapsed_s": 95.87427926063538,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E10_D_seed20260311_tau1",
+      "elapsed_s": 74.10101914405823,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260311_tau1.json"
+    },
+    {
+      "key": "E10_D_seed20260813_tau0.3",
+      "elapsed_s": 78.22532033920288,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E10_D_seed20260813_tau0.5",
+      "elapsed_s": 79.27281785011292,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E10_D_seed20260813_tau0.7",
+      "elapsed_s": 78.81972026824951,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E10_D_seed20260813_tau1",
+      "elapsed_s": 90.05773615837097,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 44.352957010269165,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E10_D_seed20260101_tau0.3",
+      "elapsed_s": 95.31695866584778,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E10_D_seed20260101_tau0.5",
+      "elapsed_s": 73.88600397109985,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E10_D_seed20260101_tau0.7",
+      "elapsed_s": 75.86645030975342,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 45.413662910461426,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 46.06696438789368,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E10_D_seed20260101_tau1",
+      "elapsed_s": 74.2382378578186,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_D_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 47.28322649002075,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 43.54245638847351,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 50.800503730773926,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 48.84756660461426,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 55.45685625076294,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 63.75459384918213,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 56.940958738327026,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 60.03793978691101,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 68.14224243164062,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 63.15768837928772,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E01_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 87.12622594833374,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 58.07392239570618,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 65.25817894935608,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 77.31132912635803,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 59.89328956604004,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 83.67686367034912,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 67.59548926353455,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 68.87210202217102,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 70.61122941970825,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 65.61807990074158,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E02_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 75.40314197540283,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 76.87785458564758,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 80.91298842430115,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 74.67861557006836,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 72.85861134529114,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 98.28428339958191,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 95.62009310722351,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 96.52831077575684,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 91.9805064201355,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 102.08657479286194,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 99.30068135261536,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 94.69556069374084,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E03_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 94.75185251235962,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 68.22286438941956,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 69.36946558952332,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 88.60536909103394,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 82.6070728302002,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 73.83056378364563,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 83.80855178833008,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 83.98320460319519,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 73.79957509040833,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 74.94391989707947,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 80.76834654808044,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 77.74198913574219,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E04_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 77.35977554321289,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 70.10325503349304,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 73.47570848464966,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 73.91533851623535,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 69.60689616203308,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 61.11628532409668,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 63.40943503379822,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 66.4679708480835,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 65.04603338241577,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 69.9461739063263,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 70.93854832649231,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 69.9370665550232,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E05_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 70.46635580062866,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 64.30957579612732,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 66.88864016532898,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 65.3493869304657,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 65.48777437210083,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 71.47678756713867,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 49.25566864013672,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 73.37510538101196,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 75.47888278961182,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 79.99566912651062,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 70.23297786712646,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 70.5778865814209,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E06_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 68.2441155910492,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 47.50099062919617,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 52.58659768104553,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 48.49423289299011,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 58.229034662246704,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 61.56821799278259,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 58.07860231399536,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 55.350868463516235,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 55.434372663497925,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 60.88876295089722,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 72.55004501342773,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 72.1894965171814,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E07_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 69.36534595489502,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 92.33198857307434,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 94.67324686050415,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 98.75698232650757,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 90.61444282531738,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 110.29923677444458,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 100.7716851234436,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 126.64943552017212,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 126.40368890762329,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 101.47746014595032,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 109.96872115135193,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 106.7961995601654,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E08_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 114.41356492042542,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 84.94247603416443,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 98.87949109077454,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 93.49251794815063,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 92.77394914627075,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 102.29002046585083,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 105.74169921875,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 106.10569214820862,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 105.69278216362,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 116.66651153564453,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 104.871750831604,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 106.676997423172,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260311_tau0.3",
+      "elapsed_s": 69.43382096290588,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E09_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 106.70185923576355,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260311_tau0.5",
+      "elapsed_s": 78.37469148635864,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260311_tau0.7",
+      "elapsed_s": 83.15512347221375,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260813_tau0.5",
+      "elapsed_s": 82.34147357940674,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260311_tau1",
+      "elapsed_s": 105.4549491405487,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260311_tau1.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260813_tau0.3",
+      "elapsed_s": 100.12171673774719,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260101_tau0.3",
+      "elapsed_s": 59.94823169708252,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260813_tau1",
+      "elapsed_s": 75.7747790813446,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260813_tau1.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260813_tau0.7",
+      "elapsed_s": 83.46572947502136,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 31.133994817733765,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260101_tau0.5",
+      "elapsed_s": 70.55778646469116,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 33.25449562072754,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 37.05676603317261,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260101_tau0.7",
+      "elapsed_s": 68.87656378746033,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 36.85165357589722,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 36.822959661483765,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E10_E-factcheck_seed20260101_tau1",
+      "elapsed_s": 70.531729221344,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-factcheck_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 37.205747842788696,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 33.49252724647522,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 32.29575204849243,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 35.55686664581299,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 31.350417137145996,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 29.57801580429077,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 38.860883474349976,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 44.045732259750366,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 34.79519319534302,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 36.0299277305603,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 37.2574577331543,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 34.332754611968994,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 35.23194718360901,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 33.35851812362671,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 41.69819235801697,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 45.04445505142212,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 36.95768094062805,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 38.88835906982422,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E02_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 37.204007625579834,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 39.873870611190796,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 42.56854486465454,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 40.0734806060791,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 37.858275413513184,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 34.756767988204956,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 41.805946588516235,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 40.818583965301514,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 43.558706283569336,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 44.55210995674133,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 49.12210512161255,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 45.35109305381775,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E03_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 46.916271686553955,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 44.43907809257507,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 40.45204472541809,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 48.4502170085907,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 51.79811716079712,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 39.22946119308472,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 65.01421117782593,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 45.5246479511261,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 35.67029166221619,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 43.070802450180054,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 38.986902952194214,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 43.16821074485779,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E04_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 45.01184940338135,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 47.795202016830444,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 48.42176914215088,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 42.50801420211792,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 43.97225880622864,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 45.16393518447876,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 40.01349401473999,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 40.599153995513916,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 42.69123578071594,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 47.147998094558716,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 42.26994800567627,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 41.93656921386719,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E05_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 44.81446409225464,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 30.768154621124268,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 32.99843716621399,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 37.54416465759277,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 33.408231019973755,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 34.21527290344238,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 37.9825599193573,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 42.73439812660217,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 39.88834857940674,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 43.996830224990845,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 48.530813455581665,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 33.5608913898468,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 46.87887644767761,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 35.40401577949524,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E06_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 42.709983825683594,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 30.746180772781372,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 33.36867713928223,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 35.82730269432068,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 32.7064311504364,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 33.40538454055786,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 36.18817329406738,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 37.33281350135803,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 41.12705445289612,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 36.704840660095215,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E07_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 36.649675369262695,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 52.68608236312866,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 49.58758759498596,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 50.72259593009949,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 47.728880167007446,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 48.83215308189392,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 52.48247814178467,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 43.836838483810425,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 44.30259943008423,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 53.185723304748535,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 58.52417516708374,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 43.747663736343384,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 43.25831198692322,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 56.558220863342285,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 42.110642194747925,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E08_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 61.978485345840454,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 42.63910889625549,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 42.03662586212158,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 40.32668375968933,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 39.35586214065552,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 44.562466621398926,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 50.804938077926636,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 55.31424021720886,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 60.2545485496521,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E09_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 64.1177225112915,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260311_tau0.3",
+      "elapsed_s": 43.813002824783325,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260311_tau0.7",
+      "elapsed_s": 41.87067365646362,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260311_tau0.5",
+      "elapsed_s": 42.079633712768555,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260311_tau1",
+      "elapsed_s": 46.11870718002319,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260311_tau1.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260813_tau0.3",
+      "elapsed_s": 39.6091730594635,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260813_tau0.5",
+      "elapsed_s": 38.82804298400879,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260813_tau0.7",
+      "elapsed_s": 38.67844271659851,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260813_tau1",
+      "elapsed_s": 37.94925880432129,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 33.42683553695679,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260101_tau0.3",
+      "elapsed_s": 46.337745666503906,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260101_tau0.5",
+      "elapsed_s": 46.76306867599487,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260101_tau0.7",
+      "elapsed_s": 48.30438232421875,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 46.02728629112244,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E10_E-ratelimit_seed20260101_tau1",
+      "elapsed_s": 59.97134232521057,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-ratelimit_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 48.203585147857666,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 25.68997812271118,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260311_tau1",
+      "elapsed_s": 47.289600133895874,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 30.308015823364258,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 48.244576930999756,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 49.0959734916687,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 33.87278366088867,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260813_tau1",
+      "elapsed_s": 58.26364994049072,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260101_tau1",
+      "elapsed_s": 59.04530906677246,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 62.78977918624878,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E01_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 75.62535667419434,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E01_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 39.81170892715454,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 72.9795024394989,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 79.58199501037598,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260311_tau1",
+      "elapsed_s": 79.20886182785034,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 77.92995619773865,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 48.57673716545105,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260813_tau1",
+      "elapsed_s": 75.35098242759705,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 85.59496402740479,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 40.149715185165405,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 92.06320405006409,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 94.69892072677612,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 71.59239959716797,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 53.19852805137634,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E02_E-detector_seed20260101_tau1",
+      "elapsed_s": 93.4187171459198,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E02_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 88.04611587524414,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260311_tau1",
+      "elapsed_s": 71.83125424385071,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 48.31698155403137,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 97.56298995018005,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 39.2670533657074,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 104.63407754898071,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260813_tau1",
+      "elapsed_s": 94.33477687835693,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 97.44209957122803,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260101_tau1",
+      "elapsed_s": 95.35483074188232,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E03_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 117.59383416175842,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E03_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 43.1502206325531,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 74.9437472820282,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 82.54553961753845,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260311_tau1",
+      "elapsed_s": 79.8582878112793,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 36.75522017478943,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 64.23890709877014,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260813_tau1",
+      "elapsed_s": 64.29530763626099,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 82.34310603141785,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 42.655516147613525,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260101_tau1",
+      "elapsed_s": 66.61096215248108,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 71.12505149841309,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E04_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 74.9169852733612,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E04_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 43.161938428878784,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 33.228837966918945,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 72.19547581672668,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 74.53271007537842,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260311_tau1",
+      "elapsed_s": 73.46340274810791,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 76.38595843315125,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260813_tau1",
+      "elapsed_s": 77.538583278656,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 82.51228427886963,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 40.96969819068909,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 65.25560116767883,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 91.72104811668396,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 35.264177083969116,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260101_tau1",
+      "elapsed_s": 87.96633100509644,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E05_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 90.44276428222656,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E05_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 66.95182228088379,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260311_tau1",
+      "elapsed_s": 67.23564052581787,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 66.34109783172607,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 36.95642042160034,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 68.27233290672302,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 44.56745266914368,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 69.62104892730713,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260813_tau1",
+      "elapsed_s": 81.8835380077362,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 77.50598096847534,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E06_E-detector_seed20260101_tau1",
+      "elapsed_s": 78.19293665885925,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E06_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 58.78457307815552,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 61.28919577598572,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 37.247782468795776,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260311_tau1",
+      "elapsed_s": 61.108654499053955,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 37.89433765411377,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 57.13555026054382,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260813_tau1",
+      "elapsed_s": 58.59792137145996,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 67.04680824279785,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 62.706929445266724,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 66.19550204277039,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E07_E-detector_seed20260101_tau1",
+      "elapsed_s": 60.951824426651,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E07_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 56.69829344749451,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 45.783634185791016,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 88.58881211280823,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 88.2534077167511,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260311_tau1",
+      "elapsed_s": 89.87913060188293,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 66.29036927223206,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 97.50603485107422,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 97.99047303199768,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260813_tau1",
+      "elapsed_s": 97.05544900894165,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 57.32241129875183,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 102.45724844932556,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 48.868093490600586,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 106.62855982780457,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E08_E-detector_seed20260101_tau1",
+      "elapsed_s": 102.28602600097656,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E08_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 87.25951790809631,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 101.75624513626099,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260311_tau1",
+      "elapsed_s": 96.31329989433289,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 50.96499752998352,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 87.72124671936035,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 92.2941837310791,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260311_tau0.3",
+      "elapsed_s": 41.80798411369324,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260311_tau0.3.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260813_tau1",
+      "elapsed_s": 86.01513195037842,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 100.00274968147278,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260101_tau0.5.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260311_tau0.5",
+      "elapsed_s": 77.39860725402832,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260311_tau0.5.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260311_tau0.7",
+      "elapsed_s": 73.88109135627747,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260311_tau0.7.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 111.36357975006104,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E09_E-detector_seed20260101_tau1",
+      "elapsed_s": 103.43728923797607,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E09_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260813_tau0.3",
+      "elapsed_s": 55.37385702133179,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260813_tau0.3.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260311_tau1",
+      "elapsed_s": 90.29284572601318,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260311_tau1.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260813_tau0.5",
+      "elapsed_s": 93.41600131988525,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260813_tau0.5.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260101_tau0.3",
+      "elapsed_s": 43.803163051605225,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260101_tau0.3.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260813_tau0.7",
+      "elapsed_s": 84.5398895740509,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260813_tau0.7.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260101_tau1",
+      "elapsed_s": 73.6902060508728,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260101_tau1.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260101_tau0.7",
+      "elapsed_s": 77.33487248420715,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260101_tau0.7.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260813_tau1",
+      "elapsed_s": 82.77174758911133,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260813_tau1.json"
+    },
+    {
+      "key": "E10_E-detector_seed20260101_tau0.5",
+      "elapsed_s": 83.64654970169067,
+      "ok": true,
+      "skipped": false,
+      "error": null,
+      "path": "/workspace/echomarket/data/study/E10_E-detector_seed20260101_tau0.5.json"
+    }
+  ]
+}
