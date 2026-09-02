@@ -4,7 +4,7 @@ A closed, fact-card-conditioned **prompt-only multi-agent loop** that replays te
 
 **Author:** Hossein Tabasi (M.Tech Computer Science and Engineering, Shoolini University). GitHub: `hosseinTabasi`.
 
-**This repository is not a trading system, not investment advice, and not a live poster.** Missing facts are written `[UNKNOWN]`. No module invents reserve numbers, dates, quotes, transaction hashes, or 72-hour peg prints. Empirical tables in `reports/RESULTS.md` are `TO RUN` until a full N=120 / R=12 / 3-seed study is executed from JSON artifacts. A smoke path (`N=12`, `R=2`, `seed=0`) is for wiring only.
+**This repository is not a trading system, not investment advice, and not a live poster.** Missing facts are written `[UNKNOWN]`. No module invents reserve numbers, dates, quotes, transaction hashes, or 72-hour peg prints. Empirical tables in `reports/RESULTS.md` now hold the v1 prompt-only N=120 / R=12 / 3-seed study numbers written from `data/study/` JSON artifacts (still not investment advice). A smoke path (`N=12`, `R=2`, `seed=0`) is for wiring only.
 
 Assets in scope: **USDT and USDC only**. Eight development events (E01–E08), two held-out test events (E09–E10). Test events run only in controls C–E after prompts are frozen.
 
@@ -43,10 +43,11 @@ echomarket/
   src/
     graph.py agents.py generate.py update.py
     attack.py defend.py evaluate.py calibrate.py
-    schemas.py io_utils.py run.py
+    schemas.py io_utils.py run.py run_study.py
+    fill_results.py detect_auc.py
   app/app.py
   reports/
-    RESULTS.md                # empty / TO RUN
+    RESULTS.md                # v1 N=120 / R=12 / 3-seed study numbers
     REPORT_OUTLINE.md
     VIVA.md
     CALENDAR_12_WEEK.md
