@@ -166,6 +166,12 @@ def simulate(cfg: Dict[str, Any], event: Dict[str, Any], card: Dict[str, Any]) -
         return f"P{pid:05d}"
 
     by_id = {a["agent_id"]: a for a in agents}
+    start_mean = sum(float(a["peg_confidence"]) for a in agents) / float(len(agents))
+    n_gated = 0
+    n_rate_limited = 0
+    n_rebroadcast_attempts = 0
+    n_official_gated = 0
+    n_official_attempted = 0
 
     for t in range(rounds):
         for a in agents:
@@ -214,8 +220,13 @@ def simulate(cfg: Dict[str, Any], event: Dict[str, Any], card: Dict[str, Any]) -
                 rec["is_rebroadcast"] = False
                 rec["detector_p_ai"] = detector_p_ai(rec["text"])
                 rec["C_flag"] = hallucination_flag(rec["text"], card)
+                if a["role"] == "official":
+                    n_official_attempted += 1
                 if defense == "detector" and apply_detector_gate(rec, tau):
                     rec["dropped"] = True
+                    n_gated += 1
+                    if a["role"] == "official":
+                        n_official_gated += 1
                     continue
                 rec["virality"] = virality(pr.get(a["agent_id"], 0.0), rec["text"], recent, lambdas)
                 round_posts.append(rec)
@@ -235,6 +246,7 @@ def simulate(cfg: Dict[str, Any], event: Dict[str, Any], card: Dict[str, Any]) -
                     rec["virality"] = virality(pr.get("ARED-redteam", 0.0), rec["text"], recent, lambdas)
                     if defense == "detector" and apply_detector_gate(rec, tau):
                         rec["dropped"] = True
+                        n_gated += 1
                     else:
                         round_posts.append(rec)
 
@@ -279,7 +291,9 @@ def simulate(cfg: Dict[str, Any], event: Dict[str, Any], card: Dict[str, Any]) -
                     w = tf(p["author_id"], a["agent_id"])
                     if w * agr <= theta:
                         continue
+                    n_rebroadcast_attempts += 1
                     if defense == "ratelimit" and retail_rate_limited(a):
+                        n_rate_limited += 1
                         continue
                     # mutate copy
                     mpl = generate_one(
@@ -304,7 +318,12 @@ def simulate(cfg: Dict[str, Any], event: Dict[str, Any], card: Dict[str, Any]) -
                     rec["reply_to"] = p["post_id"]
                     rec["detector_p_ai"] = detector_p_ai(rec["text"])
                     rec["C_flag"] = hallucination_flag(rec["text"], card)
+                    if a["role"] == "official":
+                        n_official_attempted += 1
                     if defense == "detector" and apply_detector_gate(rec, tau):
+                        n_gated += 1
+                        if a["role"] == "official":
+                            n_official_gated += 1
                         continue
                     rec["virality"] = virality(pr.get(a["agent_id"], 0.0), rec["text"], recent, lambdas)
                     extra.append(rec)
@@ -366,12 +385,21 @@ def simulate(cfg: Dict[str, Any], event: Dict[str, Any], card: Dict[str, Any]) -
         "tau": tau,
         "split": event.get("split"),
         "smoke": bool(cfg.get("_smoke")),
+        "shuffle_graph": bool(cfg.get("shuffle_graph")),
         "fidelity_applicable": fidelity_applicable(card),
         "disclaimer": "Not investment advice. Peg-confidence is a rubric score, not a forecast. No live posts.",
     }
     metrics = summarize(agents, all_posts, edges, card, snapshots)
     return {
         "world": world,
+        "start_mean": start_mean,
+        "study_counts": {
+            "n_gated": n_gated,
+            "n_rate_limited": n_rate_limited,
+            "n_rebroadcast_attempts": n_rebroadcast_attempts,
+            "n_official_gated": n_official_gated,
+            "n_official_attempted": n_official_attempted,
+        },
         "agents": [
             {k: a[k] for k in ("agent_id", "role", "community", "peg_confidence", "alpha", "beta", "gamma", "p_post", "mutation")}
             for a in agents
@@ -404,6 +432,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     p.add_argument("--seed", type=int, default=None)
     p.add_argument("--tau", type=float, default=None)
     p.add_argument("--smoke", action="store_true")
+    p.add_argument("--shuffle-graph", action="store_true", help="rewire destinations; condition C control")
     args = p.parse_args(argv)
 
     cfg = load_yaml(Path(args.config))
@@ -420,6 +449,8 @@ def main(argv: Optional[List[str]] = None) -> int:
             cfg["seed"] = args.seed
     if args.tau is not None:
         cfg["tau"] = args.tau
+    if args.shuffle_graph:
+        cfg["shuffle_graph"] = True
 
     errs = check_config(cfg)
     if errs and not cfg.get("_smoke"):

@@ -118,6 +118,10 @@ def build_graph(
             if rng.random() < p:
                 add_edge(src_a["agent_id"], dst_a["agent_id"], "follow", trust_peer)
 
+    # Shuffled-graph control: rewire every destination, preserve out-degree.
+    if cfg.get("shuffle_graph"):
+        edges = shuffle_destinations(edges, ids, rng)
+
     # Visibility: dst sees posts from src.
     visible_from: Dict[str, List[str]] = {i: [] for i in ids}
     follow_pairs: List[Tuple[str, str]] = []
